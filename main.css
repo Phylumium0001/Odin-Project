@@ -25,7 +25,7 @@
     background-color: #1f2937;
     align-items: center;
     justify-content: center;
-    height: 300px;
+    height: 350px;
     gap: 2em;
 }
 
@@ -36,6 +36,11 @@
 .descrip-item1{
     font-size: 48px;
     font-weight: bolder;
+}
+
+.descrip-item2{
+    color:#e5e7eb;
+    font-size: 18px;
 }
 
 .image{
@@ -50,4 +55,34 @@
     color: #F9FAF8;
     padding: 10px 25px;
     border-radius: 10px;
+    
+}
+
+.info-title{
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+.info-items{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.info-descrip{
+    border: 0;
+    display: flex;
+    width: 150px;
+    justify-content: center;
+}
+
+.info-image{
+    height: 150px;
+    width: 150px;
+    border: 2px solid rgb(91, 91, 224);
+    border-radius: 20px;
 }
