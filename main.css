@@ -1,0 +1,53 @@
+.header{
+    color: #F9FAF8;
+    background-color: #1f2937;
+    height: 50px;
+}
+
+.header-items{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.menu{
+    display: flex;
+    gap: 1em;
+}
+
+.logo{
+    font-size: 24px;
+}
+
+.header2{
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    gap: 2em;
+}
+
+.descrip{
+    height: 150px;
+    width: 400px;
+}
+.descrip-item1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.image{
+    height: 150px;
+    width: 350px;
+    background-color: #F9FAF8;
+    color: #1f2937;
+}
+
+.signup button{
+    background-color: blue;
+    color: #F9FAF8;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
